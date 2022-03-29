@@ -19,7 +19,7 @@ const News = (props) => {
         setloading(false)
     }
     useEffect(() => {
-        document.title = `${Title} | NewsMonkey`
+        document.title = `${Title} | NewsApp`
         updateNews();
     }, [])
 
