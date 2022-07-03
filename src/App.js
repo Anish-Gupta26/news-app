@@ -5,7 +5,8 @@ import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
 
 const App =()=> {
   const pageSize = 6
-  const apiKey = process.env.REACT_APP_NEWS_API
+  // const apiKey = process.env.REACT_APP_NEWS_API
+  const apiKey = "fd0fb60d6c854ae29ec47deb422fd007" //create process.env file for security. 
     return (
         <div>
           <Router>
